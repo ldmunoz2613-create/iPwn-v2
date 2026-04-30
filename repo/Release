@@ -1,7 +1,0 @@
-Origin: iPwn
-Label:  iPwn
-Suite: stable
-Version: 1.0
-Architecture: iphoneos-arm
-Components: main
-Description: useful repo for IOS 5-7
