@@ -1,0 +1,10 @@
+Package: com.sigpass.cola
+Name: SigPass
+Version: 1.0
+Architecture: iphoneos-arm
+Description: With the release of SigPass it is now possible to load unsigned, damaged or just forged passes onto iOS 6 and 7
+Maintainer: ghost
+Author: bag-xml
+Section: Tweaks
+Filename: pool/main/sigpass.deb
+Size: 12345
