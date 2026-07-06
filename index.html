@@ -1,7 +1,93 @@
 <!DOCTYPE html>
-<html>
-    <body>
-        <h1>Hello!</h1>
-        <p>This is Lawin's personal Cydia repo.</p>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghost's Repo - iPwn-v2</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #000000;
+            color: #ffffff;
+            text-align: center;
+            padding: 40px 20px;
+            margin: 0;
+        }
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            background: #1c1c1e;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+        img.icon {
+            width: 90px;
+            height: 90px;
+            border-radius: 22%;
+            margin-bottom: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+        h1 {
+            font-size: 28px;
+            margin: 0 0 5px 0;
+            font-weight: 700;
+        }
+        p.subtitle {
+            color: #8e8e93;
+            font-size: 16px;
+            margin: 0 0 25px 0;
+        }
+        .btn {
+            display: block;
+            background: linear-gradient(135deg, #ff9500, #ff5e3a);
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            border-radius: 12px;
+            font-weight: bold;
+            font-size: 18px;
+            margin: 10px 0;
+            transition: transform 0.2s;
+        }
+        .btn:active {
+            transform: scale(0.98);
+        }
+        .url-box {
+            background: #2c2c2e;
+            padding: 12px;
+            border-radius: 8px;
+            font-family: monospace;
+            font-size: 14px;
+            color: #0a84ff;
+            margin-top: 20px;
+            word-break: break-all;
+            border: 1px solid #3a3a3c;
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 12px;
+            color: #aeaeb2;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Uses your repository's CydiaIcon.png automatically -->
+    <img class="icon" src="CydiaIcon.png" alt="Repo Icon" onerror="this.src='https://saurik.com'">
+    
+    <h1>Ghost's Repo</h1>
+    <p class="subtitle">Must-have tweaks for legacy iOS 5.0 - 10</p>
+
+    <!-- Native URL scheme wrapper triggers Cydia source installer directly on device -->
+    <a class="btn" href="cydia://url/https://saurik.com">Add to Cydia</a>
+    
+    <div class="footer">
+        <p>Or manually add this source address to your package manager:</p>
+        <div class="url-box">https://github.io</div>
+    </div>
+</div>
+
+</body>
 </html>
