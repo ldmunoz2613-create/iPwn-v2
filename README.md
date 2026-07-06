@@ -1,7 +1,5 @@
-# lawin-cydia
-### Ignore this repository, it is for myself.
-
-My personal Cydia repo containing tweaks that I use.
+# Ghost's Repo/iPwn-V2
+### Must-have tweaks for iOS 5.0-10
 
 ## This includes
 ### Tweaks
